@@ -11,9 +11,9 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <header class="header">
+        <header class="header grid-cols-12">
             <div class="header__logo-container">
-                <img class="header__logo" src="./assets/StoryCompass.png" alt="Imagem da logo do site">
+                <img class="header__logo" src="./assets/Logo (2).png" alt="Imagem da logo do site">
             </div>
             <nav class="nav">
                 <div class="nav__button-container">
@@ -29,6 +29,40 @@
                 </ul>
             </nav>
         </header>
+        <main class="main grid-cols-12">
+            <div class="hero">
+                <div class="hero-container grid-cols-12">
+                    <div class="hero__search-container col-10">
+                        <input type="text" class="hero__search" placeholder="Pesquisar livros, autores, gêneros....">
+                        <button type="button" class="hero__btn__search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="hero__title-container col-10">
+                        <h1 class="hero__title">Descrubra sua próxima leitura!</h1>
+                    </div>
+                    <div class="hero__book col-10 grid-cols-8">
+                        <div class="hero__book-container">
+                            <img class="hero__img" src="./assets/Livro-O-Oceano-No-Fim-Do-Caminho.png" alt="Imagem do livro ">
+                        </div>
+                        <div class="hero__description-container">
+                            <div class="hero__title__book-container">
+                                <h2 class="hero__title__secondary">O oceano no fim do caminho</h2>
+                            </div>
+                            <div class="hero__author__book-container">
+                                <p class="hero__subtitle">Nell gaimon</p>
+                                <i class="fa-solid fa-star"></i>
+                                <p class="hero__subtitle">4.8</p>
+                            </div>
+                            <div class="hero__sumary__book-container">
+                                <p class="hero__sumary">Ao retornar à sua cidade natal, um homem revive memórias de infância marcadas por magia e uma amizade transformadora.</p>
+                            </div>
+                            <div class="hero__details__book-container">
+                                <button class="hero__btn__details">Ver detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </main>
         <script src="./js/script.js"></script>
     </body>
 </html>
