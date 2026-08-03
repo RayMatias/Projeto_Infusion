@@ -27,7 +27,7 @@ body{
 }
 
 .header{
-    padding: 0.5em 1em;
+    padding: 0.5em 0.0em 0.5em 1em;
 }
 
 .header__logo-container{
@@ -45,6 +45,7 @@ body{
     display: flex;
     justify-content: right;
     align-items: center;
+    position: relative;
 }
 
 .nav__button{
@@ -54,14 +55,59 @@ body{
     font-size: 1.2em;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
+    margin-right: 1em;
 }
 
 .nav__button:hover{
     color: var(--color--btn);
 }
 
-.nav__menu{
-    display: none;
+#nav__menu-controls{
+    margin-top:3em;
+    position: absolute;
+    top: 0;
+    right: -300%;
+    z-index: 999;
+    background-color: var(--color--background);
+    height:100vh;
+    width: 18em;
+    text-align: right;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    transition: all ease-in-out 0.4s;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+    border-radius: 0em 0em 1em 1em;
+}
+
+#nav__menu-controls.activated{
+    right: 0;
+}
+
+#nav__menu-controls .nav__item{
+    background-color: var(--color--btn);
+    border-radius: 0.3em;
+}
+
+#nav__menu-controls .nav__link{
+    display: block;
+    text-decoration: none;
+    color: var(--color--main--text);
+    font-size: 1.3em;
+    padding: 0.3em;
+    transition: all ease-in-out 0.4s;
+}
+
+.nav__link .fa-solid{
+    color: var(--color--main--text);
+    margin-right: 0.5em;
+}
+.nav__link:hover{
+    border-radius: 0.3em;
+    background-color: var(--color--hover);
+    transform: scale(1.05);
+    
 }
 
 .hero{
