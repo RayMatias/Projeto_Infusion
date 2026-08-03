@@ -70,7 +70,7 @@ body{
     right: -300%;
     z-index: 999;
     background-color: var(--color--background);
-    height:100vh;
+    height:80vh;
     width: 18em;
     text-align: right;
     padding: 1em;
