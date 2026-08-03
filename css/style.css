@@ -76,7 +76,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2em;
-    transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.7s;
     box-shadow: -5px 0 15px rgba(0,0,0,0.3);
     border-radius: 0em 0em 1em 1em;
 }
