@@ -1,10 +1,10 @@
-# 🧭 StoryCompass - Descubra sua próxima leitura
+# 🧭 BiblioRecomenda - Descubra sua próxima leitura
 
 Um catálogo digital elegante e responsivo, focado na exibição de livros, categorias, e novos lançamentos literários. Este projeto é uma **aplicação estritamente Front-End**, desenvolvida para aplicar conceitos avançados de estruturação de layouts, UI/UX e boas práticas de codificação.
 
 ## 💻 Sobre o Projeto
 
-O StoryCompass foi projetado com uma interface moderna em Dark Mode para proporcionar uma experiência visual agradável e imersiva aos leitores. O foco técnico principal desta versão foi a construção de uma base CSS sólida, escalável e de fácil manutenção, utilizando metodologias de mercado e abandonando layouts engessados.
+O BiblioRecomenda foi projetado com uma interface moderna em Dark Mode para proporcionar uma experiência visual agradável e imersiva aos leitores. O foco técnico principal desta versão foi a construção de uma base CSS sólida, escalável e de fácil manutenção, utilizando metodologias de mercado e abandonando layouts engessados.
 
 ## 🛠️ Tecnologias e Conceitos Utilizados
 
