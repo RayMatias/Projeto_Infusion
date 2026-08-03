@@ -12,12 +12,12 @@ function main(){
             chanceIcone(activatedOrNot)
         })
     }
-    
+
     const chanceIcone = (boolean) =>{
         const btn = document.querySelector(".nav__button")
         const icone = btn.querySelector("i")
 
-        activatedIcon = boolean ? icone.className = "fa-solid fa-xmark" : icone.className = "fa-solid fa-bars"
+        const activatedIcon = boolean ? icone.className = "fa-solid fa-xmark" : icone.className = "fa-solid fa-bars"
     }
     
     menu()
