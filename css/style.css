@@ -46,6 +46,7 @@ body{
     justify-content: right;
     align-items: center;
     position: relative;
+    margin-right: 0.6em;
 }
 
 .nav__button{
